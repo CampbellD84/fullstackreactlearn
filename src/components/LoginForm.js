@@ -10,7 +10,7 @@ export class LoginForm extends React.Component {
 
   render() {
     return (
-      <Formsy.FormonSubmit={this.props.onSubmit}>
+      <Formsy.Form onSubmit={this.props.onSubmit}>
         <Paper zDepth={1} style={{padding: 32}}>
           <h3>Log in</h3>
           <DefaultInput
